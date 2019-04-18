@@ -8,7 +8,7 @@
 
 ## File Structure
 
-|   LICENSE
+|   LICENSE\n
 |   README.md
 |   project_env.yml
 |   setup.py
