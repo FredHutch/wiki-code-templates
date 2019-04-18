@@ -8,6 +8,7 @@
 
 ## File Structure
 
+The minimum file structure is diagrammed below, followed by further discussion of the usage of each directory.
 ```
 ProjectName/
   |- README.md
