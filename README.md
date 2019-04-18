@@ -2,19 +2,24 @@
 
 ## Template Usage
 
+#### Jupyter Notebook Project
+
+#### Scripting and Package Creation
 
 ## File Structure
 
 
 
-### README
+#### README
 
-### License
+#### License
 
-### Setup.py
+#### Setup.py
 
-### Data Storage
+#### project_env.yml
 
-### Source Code
+#### Data Storage
 
-### Results
+#### Source Code
+
+#### Results
