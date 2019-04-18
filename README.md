@@ -7,7 +7,7 @@
 #### Scripting and Package Creation
 
 ## File Structure
-        
+
 
 #### README
 
@@ -17,10 +17,10 @@
 
 #### project_env.yml
 
-#### Data Storage
+#### Data Storage (+data/)
 
-#### Documentation
+#### Documentation (+doc/)
 
-#### Source Code
+#### Source Code (+project_name/)
 
-#### Results
+#### Results (+results/)
