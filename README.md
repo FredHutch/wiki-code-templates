@@ -2,9 +2,9 @@
 
 ## Template Usage
 
-#### Jupyter Notebook Project
+### Jupyter Notebook Project
 
-#### Scripting and Package Creation
+### Scripting and Package Creation
 
 ## File Structure
 
