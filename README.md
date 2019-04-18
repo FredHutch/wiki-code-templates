@@ -8,21 +8,36 @@
 
 ## File Structure
 
-|   LICENSE\n
+|   LICENSE
+
 |   README.md
+
 |   project_env.yml
+
 |   setup.py
+
 +---data
+
 |   +---processed_data
+
 |   |       sample_processed_data.csv
+
 |   \---raw_data
+
 |           raw_sample_data.csv
+
 +---doc
+
 |       README.md
+
 +---results
+
 |       ProjectName.ipynb
+
 \---src
+
         __init__.py
+        
 
 #### README
 
