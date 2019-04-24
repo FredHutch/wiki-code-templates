@@ -12,7 +12,7 @@ opts = dict(name='ProjectName',
             maintainer_email='your_email',
             description='Add short description',
             long_description=("""Add an even more detailed description"""),
-            url='<your_repo_url_here>',
+            url='your_repo_url_here',
             license='MIT', # default license, change here and in the git repo if using a different license
             author='Name1, Name2, etc',
             author_email='your_email',
