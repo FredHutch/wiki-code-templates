@@ -76,7 +76,7 @@ This directory is a catch-all for any supporting work for your project. Dependin
 
 #### Source Code ([+project_name/](project_name/))
 
-This directory should contain all the source code for your project. Note that python modules should have all lower case names with no hyphens, and underscores are encouraged for word separation.
+This directory should contain all the source code for your project. Note that python modules should have all lower case names with no hyphens, and underscores are encouraged for word separation. You also should rename this directory to a meaningful name for your project.
 
 #### Results ([+results/](results/))
 
