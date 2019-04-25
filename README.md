@@ -37,7 +37,7 @@ Batching is simply automating what you would do on the command line. In general,
 
 The minimum file structure is diagrammed below, followed by further discussion of the usage of each directory.
 ```
-ProjectName/
+Python_Project_Template/
   |- README.md
   |- LICENSE
   |- setup.py
@@ -79,3 +79,5 @@ This directory is a catch-all for any supporting work for your project. Dependin
 This directory should contain all the source code for your project. Note that python modules should have all lower case names with no hyphens, and underscores are encouraged for word separation.
 
 #### Results (+results/)
+
+One of the benefits of using this project template correctly is that your results will always be easy to find. By default, a jupyter notebook exists in this folder. You might also want to write your output to this directory, or include a final report or presentation.
