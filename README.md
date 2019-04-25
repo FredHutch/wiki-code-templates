@@ -40,7 +40,6 @@ The minimum file structure is diagrammed below, followed by further discussion o
 ProjectName/
   |- README.md
   |- LICENSE
-  |- project_env.yml
   |- setup.py
   |- data/
       |- raw_data/
@@ -62,8 +61,6 @@ Every project should have a README file, that describes the contents of the proj
 The default template license is the MIT license, as it comes with very limited restrictions and is considered a good choice for open research and code sharing. For more information on the MIT license, see the [full text](https://opensource.org/licenses/MIT). 
 
 To set a different license for your project, you will need to delete the MIT license and [replace it](https://help.github.com/en/articles/adding-a-license-to-a-repository) before releasing your code. You should also make sure to update the license option in the `setup.py` file.
-
-#### project_env.yml
 
 #### Setup.py
 
