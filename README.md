@@ -70,14 +70,14 @@ The `setup.py` file is required for creating a package from your code. The curre
 
 Raw data should be kept separate from processed data, and code to process data should be located in either the source code directory or a jupyter notebook, depending on the project design. In practice, you might store the data directly in these folders, or instead you might document an external location where the data is stored. To keep the examples repository lightweight, we ask that data not be stored in the repository. 
 
-#### Documentation (+doc/)
+#### Documentation ([+doc/](doc/))
 
 This directory is a catch-all for any supporting work for your project. Depending on how you are sharing your code, you may want to build a brief tutorial or provide instruction in a README file. For code associated with research, background/source documents, papers, and presentations can all be included here.
 
-#### Source Code (+project_name/)
+#### Source Code ([+project_name/](project_name/))
 
 This directory should contain all the source code for your project. Note that python modules should have all lower case names with no hyphens, and underscores are encouraged for word separation.
 
-#### Results (+results/)
+#### Results ([+results/](results/))
 
 One of the benefits of using this project template correctly is that your results will always be easy to find. By default, a jupyter notebook exists in this folder. You might also want to write your output to this directory, or include a final report or presentation.
