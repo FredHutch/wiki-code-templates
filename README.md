@@ -1,5 +1,3 @@
-# Python Project Template
-
 ## Template Usage
 
 This template is built to accommodate any Python project, and has the flexibility to support a standalone notebook interface, an automated script, package creation, or some hybrid thereof. Some projects will require building out additional subfolders and modules, but the basic skeleton should be consistent across all projects at Fred Hutch. This will aid in reproducibility, and make it easier for other researches to review and adapt code to their own purposes. To browse the library of examples originating from this template (or submit your own code to be shared), see our linked [Coding Examples Repository](https://github.com/FredHutch/wiki-code-examples).
