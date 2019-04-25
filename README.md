@@ -54,7 +54,7 @@ Python_Project_Template/
 
 #### README
 
-Every project should have a README file, that describes the contents of the project directory and the intended use of the code. This document can be plain text, although markdown is convenient for sharing links and formatting. The [SciComp Wiki](https://sciwiki.fredhutch.org/compdemos/vscode_markdown_howto/) contains several resources for markdown tips as well as the VS Code editor.
+Every project should have a README file, that describes the contents of the project directory and the intended use of the code. This document can be plain text, although markdown is convenient for sharing links and formatting. The [Scientific Computing Wiki](https://sciwiki.fredhutch.org/compdemos/vscode_markdown_howto/) contains several resources for markdown tips as well as the VS Code editor.
 
 #### License
 
