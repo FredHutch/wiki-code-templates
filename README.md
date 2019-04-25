@@ -75,6 +75,10 @@ Raw data should be kept separate from processed data, and code to process data s
 
 #### Documentation (+doc/)
 
+This directory is a catch-all for any supporting work for your project. Depending on how you are sharing your code, you may want to build a brief tutorial or provide instruction in a README file. For code associated with research, background/source documents, papers, and presentations can all be included here.
+
 #### Source Code (+project_name/)
+
+This directory should contain all the source code for your project. Note that python modules should have all lower case names with no hyphens, and underscores are encouraged for word separation.
 
 #### Results (+results/)
