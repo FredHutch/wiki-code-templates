@@ -66,7 +66,7 @@ To set a different license for your project, you will need to delete the MIT lic
 
 The `setup.py` file is required for creating a package from your code. The current contents is sufficient to run, as long as you update the values of the options. 
 
-#### Data Storage (+data/)
+#### Data Storage ([+data/](data/))
 
 Raw data should be kept separate from processed data, and code to process data should be located in either the source code directory or a jupyter notebook, depending on the project design. In practice, you might store the data directly in these folders, or instead you might document an external location where the data is stored. To keep the examples repository lightweight, we ask that data not be stored in the repository. 
 
