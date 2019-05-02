@@ -45,7 +45,7 @@ Python_Project_Template/
       |- raw_data/
       |- processed_data/
   |- doc/
-      |- README.md
+      |- doc_instructions.md
   |- project_name/
       |-  __init__.py
   |- results/
