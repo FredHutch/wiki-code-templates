@@ -21,7 +21,7 @@ local:~/$ git init
 local:~/$ git add *
 local:~/$ git commit -am "initial commit from template"
 ```
-> Note: for more resources on using git, including how to share your local project repo, see the [Scientific Computing Wiki](https://sciwiki.fredhutch.org/scicomputing/software_managecode/).
+> Note: for more resources on using git, see the [Scientific Computing Wiki](https://sciwiki.fredhutch.org/scicomputing/software_managecode/).
 
 #### Examples
 
