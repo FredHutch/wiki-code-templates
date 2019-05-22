@@ -2,9 +2,9 @@
 
 The Fred Hutch templates repository stores the minimum file requirements for several project types. Each project folder serves as a template and guide for following best coding practices. Please visit the [Scientific Computing Wiki](https://sciwiki.fredhutch.org/scicomputing/software_standards/) to review the coding standards at Fred Hutch.
 
-Supported project types are detailed in the following sections, and include both stand-alone data analysis or package/tool creation. The standards vary between the two projects, with greater organizational structure and testing requirements for tool development projects. Both project types require a license and README file, as well as a designated location for separate raw and processed data. Each project folder contains a README file detailing usage and all template components.
+Supported project types are detailed in the following sections, and include both stand-alone data analysis and package/tool creation. The standards vary between the two projects, with greater organizational structure and testing requirements for tool development projects. Both project types require a license and README file, as well as a designated location for separate raw and processed data. Each project folder contains a README file detailing usage and all template components.
 
-Currently, only python templates are supported. However, a similar framework is anticipated for R development in the near future.
+Currently, only Python templates are supported. However, a similar framework is anticipated for R development in the near future.
 
 #### Usage
 
