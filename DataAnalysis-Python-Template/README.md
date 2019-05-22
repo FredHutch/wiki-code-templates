@@ -29,6 +29,8 @@ username@rhino2:~/DataAnalysis-Python-Template$ python project_name.py
 ```
 Batching is simply automating what you would do on the command line. In general, the automation steps go in a `.bat` file. For computing at Fred Hutch, we refer to the description and instructions available on the [Scientific Computing Wiki](https://sciwiki.fredhutch.org/computing/cluster_usingSlurm/).
 
+Here is an example of a data analysis project contained in a python script, developed from this template: [TODO: commmand line data analysis project example](https://github.com/FredHutch/wiki-code-examples).
+
 Please note that if you do not wish to use a notebook interface, then the `ProjectName.ipynb` file can be deleted without affecting the remainder of the template.
 
 # File Structure
