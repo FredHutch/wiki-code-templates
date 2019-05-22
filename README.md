@@ -47,7 +47,7 @@ Python_Project_Template/
   |- doc/
       |- doc_instructions.md
   |- project_name/
-      |-  __init__.py
+      |- __init__.py
   |- results/
       |- ProjectName.ipynb
 ```
