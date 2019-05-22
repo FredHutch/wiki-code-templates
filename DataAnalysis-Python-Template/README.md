@@ -6,19 +6,19 @@ To review the coding standards at Fred Hutch, please see the [Scientific Computi
 
 With this template, you can choose between building your data analysis project in an interactive Jupyter notebook, or in a python script to be run on the command line. Details for both options are described below.
 
-### Jupyter Notebook Project
+## Jupyter Notebook Project
 
 You may want to build your entire data analysis project within a Jupyter notebook. In this case, you can find a template `ProjectName.ipynb` file in the root folder of this template directory. Please replace `ProjectName` with a name meaningful to your project. By saving your final notebooks in this location, anyone following up on your code can readily and unambiguously access the conclusions of your work. 
 
-The `.ipynb_checkpoints\` directory stores information needed to run your Jupyter notebook. It should be left alone if you are developing an interactive notebook. 
-
 Jupyter notebooks allow the flexibility to add interactive features, as well as mark-down text for documentation clarity. In a standalone notebook project, no further documentation is required in the directory if the workbook is well-documented. A well-documented notebook should include contextual information in markdown cells, and docstrings for all functions.
+
+When you run your Jupyter notebook, a `.ipynb_checkpoints\` directory will be created in the root folder. This directory stores information needed to run your Jupyter notebook. It should be left alone if you are developing an interactive notebook. 
 
 Here is an example of a data analysis project contained in a Jupyter notebook, developed from this template: [TODO: Standalone Notebook](https://github.com/FredHutch/wiki-code-examples).
 
-### Command Line Project
+If you choose to work in an interactive notebook instead of the command line, then the `project_name.py` file is not needed. Deleting it will not affect the remainder of files in the template.
 
-Please note that if you do not wish to use a notebook interface, then both the `ProjectName.ipynb` file and `.ipynb_checkpoints\` folder can be deleted.
+## Command Line Project
 
 To run a Python module on the command line, you simply need to run Python with the path to the code you wish to run. In this case, you should write your code to the `project_name.py` file (after giving it a meaningful name).
 
@@ -29,44 +29,23 @@ username@rhino2:~/DataAnalysis-Python-Template$ python project_name.py
 ```
 Batching is simply automating what you would do on the command line. In general, the automation steps go in a `.bat` file. For computing at Fred Hutch, we refer to the description and instructions available on the [Scientific Computing Wiki](https://sciwiki.fredhutch.org/computing/cluster_usingSlurm/).
 
-### Scripting and Package Creation
-
-Sometimes you will want to contain an entire project in source code files. You can then either create a package that can be imported and run on other machines, or set up your code to execute on the command line or run automatically with a batch script. The minimal structure for any of these cases is included in the template, although you may want to build several distinct modules within the source code (`project_name/`) folder. Note that source code folder must contain an `__init__.py` file, and module names should be all lowercase with no hyphens (underscores are recommended).
-
-We've included resources below for each of these use cases, as well as our own examples built from this template.
-
-#### Creating a Package
-
-To create a portable Python package from your project, you'll want to update the `setup.py` file in the root directory. An example of some setup options are provided in the file. At a minimum, you should set the appropriate values for these options. If you'd like to explore further, [this web resource](https://python-packaging.readthedocs.io/en/latest/index.html) contains some additional information on setup options and package creation.
-
-#### Command Line and Batch
-
-To run a Python module on the command line, you simply need to run Python with the path to the module you wish to run. All source code should be saved in the `project_name/` directory.
-
-For example, using a python 3 environment from the project root directory in rhino, we can run the contents of a file `module_name.py` in the source code folder:
-```
-username@rhino2:~/Python-Project-Template$ ml Python
-username@rhino2:~/Python-Project-Template$ python project_name/module_name.py
-```
-Batching is simply automating what you would do on the command line. In general, the automation steps go in a `.bat` file. For computing at Fred Hutch, we refer to the description and instructions available on the [Scientific Computing Wiki](https://sciwiki.fredhutch.org/computing/cluster_usingSlurm/).
+Please note that if you do not wish to use a notebook interface, then the `ProjectName.ipynb` file can be deleted without affecting the remainder of the template.
 
 # File Structure
 
-The minimum file structure is diagrammed below, followed by further discussion of the usage of each directory.
+The minimum file structure is diagrammed below, followed by further discussion of the usage of each item. (See above for discussion of `project_name.py` and `ProjectName.ipynb`).
+
 ```
 Python_Project_Template/
   |- README.md
   |- LICENSE
-  |- setup.py
+  |- ProjectName.ipynb
+  |- project_name.py
   |- data/
       |- raw_data/
       |- processed_data/
   |- doc/
       |- doc_instructions.md
-  |- project_name/
-      |-  __init__.py
-  |- results/
-      |- ProjectName.ipynb
 ```
 
 #### README
@@ -75,13 +54,9 @@ Every project should have a README file, that describes the contents of the proj
 
 #### License
 
-The default template license is the MIT license, as it comes with very limited restrictions and is considered a good choice for open research and code sharing. For more information on the MIT license, see the [full text](https://opensource.org/licenses/MIT). 
+All shared code and anlaysis needs to be released under a license. The default template license is the MIT license, as it comes with very limited restrictions and is considered a good choice for open research and code sharing. For more information on the MIT license, see the [full text](https://opensource.org/licenses/MIT). 
 
-To set a different license for your project, you will need to delete the MIT license and [replace it](https://help.github.com/en/articles/adding-a-license-to-a-repository) before releasing your code. You should also make sure to update the license option in the `setup.py` file.
-
-#### Setup.py
-
-The `setup.py` file is required for creating a package from your code. The current contents is sufficient to run, as long as you update the values of the options. 
+To set a different license for your project, you will need to delete the MIT license and [replace it](https://help.github.com/en/articles/adding-a-license-to-a-repository) before publicly releasing your project.
 
 #### Data Storage ([+data/](data/))
 
@@ -90,11 +65,3 @@ Raw data should be kept separate from processed data, and code to process data s
 #### Documentation ([+doc/](doc/))
 
 This directory is a catch-all for any supporting work for your project. Depending on how you are sharing your code, you may want to build a brief tutorial or provide instruction in a README file. For code associated with research, background/source documents, papers, and presentations can all be included here.
-
-#### Source Code ([+project_name/](project_name/))
-
-This directory should contain all the source code for your project. Note that python modules should have all lower case names with no hyphens, and underscores are encouraged for word separation. You also should rename this directory to a meaningful name for your project.
-
-#### Results ([+results/](results/))
-
-One of the benefits of using this project template correctly is that your results will always be easy to find. By default, a jupyter notebook exists in this folder. You might also want to write your output to this directory, or include a final report or presentation.
