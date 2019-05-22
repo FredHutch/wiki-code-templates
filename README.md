@@ -33,7 +33,7 @@ To keep the examples repo lightweight for easy cloning, we request that data not
 
 This project template is built to accommodate a Python project used primarily for data analysis. With this template, you can choose between building your data analysis project in an interactive Jupyter notebook, or in a python script to be run on the command line. All additional files in the template are documented in the local [README](DataAnalysis-Python-Template/README.md) file and represent the minimum requirements to keep in mind when developing or sharing any data analysis project.
 
-While sharing results is encouraged, it is not anticipated that the underlying code will be packaged for re-use.
+While sharing results is encouraged, it is not anticipated that the underlying code for this type of project will be packaged for re-use.
 
 ## Tool and Package Development ([+ToolDev-Python-Template](ToolDev-Python-Template/))
 
