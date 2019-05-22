@@ -1,16 +1,33 @@
-# Template Usage
+# Data Analysis Template Usage
 
-This template is built to accommodate any Python project, and has the flexibility to support a standalone notebook interface, an automated script, package creation, or some hybrid thereof. Some projects will require building out additional subfolders and modules, but the basic skeleton should be consistent across all projects at Fred Hutch. This will aid in reproducibility, and make it easier for other researches to review and adapt code to their own purposes. To browse the library of examples originating from this template (or submit your own code to be shared), see our linked [Coding Examples Repository](https://github.com/FredHutch/wiki-code-examples).
+This template is built to accommodate a Python project used primarily for data analysis. While sharing results is encouraged, it is not anticipated that the underlying code will be packaged for re-use. This template is set up for when you need a single Jupyter notebook, or a single `.py` file to batch for your results. All additional files in the template represent the minimum requirements to keep in mind when developing or sharing any data analysis project.
+
+To review the coding standards at Fred Hutch, please see the [Scientific Computing Wiki](https://sciwiki.fredhutch.org/scicomputing/software_standards/). By maintaining these standards across Fred Hutch, our work is reproducible and easier for other researchers to review and adapt to their own purposes. To browse the library of examples originating from this template (or submit your own code to be shared), see our linked [Data Analysis Examples Repository](https://github.com/FredHutch/wiki-code-examples/data-analysis).
+
+With this template, you can choose between building your data analysis project in an interactive Jupyter notebook, or in a python script to be run on the command line. Details for both options are described below.
 
 ### Jupyter Notebook Project
 
-You may want to build your entire project within a jupyter notebook, or you may want to use a notebook to interact with an underlying module that you develop. In either case, you can find a template `ProjectName.ipynb` file within the `results` folder of this template directory. By saving your final notebooks in this location, anyone following up on your code can readily and unambiguously access the conclusions of your work. 
+You may want to build your entire data analysis project within a Jupyter notebook. In this case, you can find a template `ProjectName.ipynb` file in the root folder of this template directory. Please replace `ProjectName` with a name meaningful to your project. By saving your final notebooks in this location, anyone following up on your code can readily and unambiguously access the conclusions of your work. 
 
-Below are two examples of projects with a notebook interface, developed from this template. Each example meets the coding standards at Fred Hutch: 
- - [TODO: Standalone Notebook](https://github.com/FredHutch/wiki-code-examples)
- - [TODO: Notebook Interface to Modules](https://github.com/FredHutch/wiki-code-examples)
+The `.ipynb_checkpoints\` directory stores information needed to run your Jupyter notebook. It should be left alone if you are developing an interactive notebook. 
 
-Jupyter notebooks allow the flexibility to add interactive features, as well as mark-down text for documentation clarity. In a standalone notebook project, no further documentation is required in the directory if the workbook is well-documented. A well-documented notebook should include contextual information in markdown cells, and docstrings for all functions. Any additional modules must also be documented appropriately. Continue reading below for more information on building additional source code.
+Jupyter notebooks allow the flexibility to add interactive features, as well as mark-down text for documentation clarity. In a standalone notebook project, no further documentation is required in the directory if the workbook is well-documented. A well-documented notebook should include contextual information in markdown cells, and docstrings for all functions.
+
+Here is an example of a data analysis project contained in a Jupyter notebook, developed from this template: [TODO: Standalone Notebook](https://github.com/FredHutch/wiki-code-examples).
+
+### Command Line Project
+
+Please note that if you do not wish to use a notebook interface, then both the `ProjectName.ipynb` file and `.ipynb_checkpoints\` folder can be deleted.
+
+To run a Python module on the command line, you simply need to run Python with the path to the code you wish to run. In this case, you should write your code to the `project_name.py` file (after giving it a meaningful name).
+
+For example, using a python 3 environment from the project root directory in rhino, we can run the contents of a file `project_name.py` in the source code folder:
+```
+username@rhino2:~/DataAnalysis-Python-Template$ ml Python
+username@rhino2:~/DataAnalysis-Python-Template$ python project_name.py
+```
+Batching is simply automating what you would do on the command line. In general, the automation steps go in a `.bat` file. For computing at Fred Hutch, we refer to the description and instructions available on the [Scientific Computing Wiki](https://sciwiki.fredhutch.org/computing/cluster_usingSlurm/).
 
 ### Scripting and Package Creation
 
