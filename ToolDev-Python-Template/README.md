@@ -28,8 +28,8 @@ To run a Python module on the command line, you simply need to run Python with t
 
 For example, using a python 3 environment from the project root directory in rhino, we can run the contents of a file `module_name.py` in the source code folder:
 ```
-username@rhino2:~/Python-Project-Template$ ml Python
-username@rhino2:~/Python-Project-Template$ python project_name/module_name.py
+username@rhino2:~/ToolDev-Python-Template$ ml Python
+username@rhino2:~/ToolDev-Python-Template$ python project_name/module_name.py
 ```
 Batching is simply automating what you would do on the command line. In general, the automation steps go in a `.bat` file. For computing at Fred Hutch, we refer to the description and instructions available on the [Scientific Computing Wiki](https://sciwiki.fredhutch.org/scicomputing/compute_jobs/).
 
