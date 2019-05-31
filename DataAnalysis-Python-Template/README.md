@@ -38,7 +38,7 @@ Please note that if you do not wish to use a notebook interface, then the `Proje
 The minimum file structure is diagrammed below, followed by further discussion of the usage of each item. (See above for discussion of `project_name.py` and `ProjectName.ipynb`).
 
 ```
-Python_Project_Template/
+DataAnalysis-Python-Template/
   |- README.md
   |- LICENSE
   |- ProjectName.ipynb
