@@ -39,3 +39,6 @@ While sharing results is encouraged, it is not anticipated that the underlying c
 
 This project template is built to accommodate any Python project focused on tool or package development, which can ultimately be shared or imported by other users. The template file structure has the flexibility to support a notebook interface, an automated script, package creation, or some hybrid thereof. Some projects will require building out additional subfolders and modules, but the basic skeleton should be consistent across all projects at Fred Hutch. This will aid in reproducibility, and make it easier for other researches to review and adapt code to their own purposes. All template components are documented in the local [README](ToolDev-Python-Template/README.md) file.
 
+## Flask application template ([+Flask-Python-Template](Flask-Python-Template/))
+
+This project template is built for a simple flask web application that only consists of a few pages and relatively simple functionality.  More complex projects can likely use a very similar template but if you find yourself using thigns like blueprints, a complex service layer, AMQP, etc. then this is probably too simplistic of a template for you to use as-is.  All template components are documented in the local [README](Flask-Python-Template/README.md) file.
