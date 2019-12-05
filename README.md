@@ -1,5 +1,7 @@
 # Templates Repository
 
+**Notice: This repository has been archived in favor of independent repositories for each template type. Please see the [Fred Hutch Biomedical Data Science Wiki page on templates](https://sciwiki.fredhutch.org/scicomputing/software_examples/) for more information.**
+
 The Fred Hutch templates repository stores the minimum file requirements for several project types. Each project folder serves as a template and guide for following best coding practices. Please visit the [Scientific Computing Wiki](https://sciwiki.fredhutch.org/scicomputing/software_standards/) to review the coding standards at Fred Hutch.
 
 Supported project types are detailed in the following sections, and include both stand-alone data analysis and package/tool creation. The standards vary between the two projects, with greater organizational structure and testing requirements for tool development projects. Both project types require a license and README file, as well as a designated location for separate raw and processed data. Each project folder contains a README file detailing usage and all template components.
